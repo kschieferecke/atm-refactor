@@ -1,0 +1,29 @@
+<div id="withdraw-menu" style="display:none"> 
+<button onclick="withdraw20()">$20</button>
+
+<button onclick="withdraw40()">$40</button>
+
+<button onclick="withdraw60()">$60</button>
+
+<button onclick="withdraw80()">$80</button>
+
+<button onclick="withdraw100()">$100</button>
+<br> <br>
+<button onclick="withdraw120()">$120</button>
+
+<button onclick="withdraw140()">$140</button>
+
+<button onclick="withdraw160()">$160</button>
+
+<button onclick="withdraw180()">$180</button>
+
+<button onclick="withdraw200()">$200</button>
+</div>
+
+
+<script>
+withdrawal(wdAmount) {
+    this.balance = this.balance - wdAmount - 2.00;
+    updateATM();
+};
+</script>
